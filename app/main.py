@@ -181,15 +181,7 @@ async def product_page(url: str = Query(...)):
             "sold_by": "samsclub.com",
         }
         return data
-        # tasks = [
-        # fetch_content(session, "http://example.com"),
-        # fetch_content(session, "http://http.org")
-        # ]
-        # results = await asyncio.gather(*tasks)
 
-    # responses["example.com"] = results[0]
-    # responses["http.org"] = results[1]
-    #
-    # return responses
+
 
 
